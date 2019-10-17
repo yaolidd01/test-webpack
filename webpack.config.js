@@ -33,11 +33,6 @@ module.exports = {
   resolve: {
     modules: [resolve(__dirname, "src"), "node_modules"],
     alias: {
-      "@base": resolve(__dirname, "src/base"),
-      "@helpers": resolve(__dirname, "src/helpers"),
-      "@store": resolve(__dirname, "src/store"),
-      "@components": resolve(__dirname, "src/components"),
-      "@assets": resolve(__dirname, "src/assets"),
       'react-dom': '@hot-loader/react-dom'
     },
     plugins: [
